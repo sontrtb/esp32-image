@@ -10,7 +10,7 @@
 
 bool apActive = false;
 unsigned long lastActiveTime = 0;
-const unsigned long ACTIVE_TIMEOUT = 60 * 1000;
+const unsigned long ACTIVE_TIMEOUT = 2 * 60 * 1000;
 
 const char *ap_ssid = "SFeDev";
 const char *ap_password = "12345678";
